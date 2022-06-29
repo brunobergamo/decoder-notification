@@ -1,7 +1,7 @@
 package com.ead.notification.consumer;
 
-import com.ead.notification.configs.enums.NotificationStatus;
-import com.ead.notification.configs.models.NotificationModel;
+import com.ead.notification.enums.NotificationStatus;
+import com.ead.notification.models.NotificationModel;
 import com.ead.notification.dtos.NotificationCommandDto;
 import com.ead.notification.services.NotificationService;
 import org.springframework.amqp.core.ExchangeTypes;
@@ -10,7 +10,6 @@ import org.springframework.amqp.rabbit.annotation.Queue;
 import org.springframework.amqp.rabbit.annotation.QueueBinding;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 

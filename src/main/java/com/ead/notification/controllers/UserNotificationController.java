@@ -1,6 +1,6 @@
 package com.ead.notification.controllers;
 
-import com.ead.notification.configs.models.NotificationModel;
+import com.ead.notification.models.NotificationModel;
 import com.ead.notification.dtos.NotificationDto;
 import com.ead.notification.services.NotificationService;
 import org.springframework.data.domain.Page;

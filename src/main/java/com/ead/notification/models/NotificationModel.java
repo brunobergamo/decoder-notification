@@ -1,6 +1,6 @@
-package com.ead.notification.configs.models;
+package com.ead.notification.models;
 
-import com.ead.notification.configs.enums.NotificationStatus;
+import com.ead.notification.enums.NotificationStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
 

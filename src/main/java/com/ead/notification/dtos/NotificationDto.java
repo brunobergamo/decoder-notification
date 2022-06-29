@@ -1,6 +1,6 @@
 package com.ead.notification.dtos;
 
-import com.ead.notification.configs.enums.NotificationStatus;
+import com.ead.notification.enums.NotificationStatus;
 
 import javax.validation.constraints.NotNull;
 

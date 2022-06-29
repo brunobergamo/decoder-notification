@@ -1,7 +1,7 @@
 package com.ead.notification.reposiories;
 
-import com.ead.notification.configs.enums.NotificationStatus;
-import com.ead.notification.configs.models.NotificationModel;
+import com.ead.notification.enums.NotificationStatus;
+import com.ead.notification.models.NotificationModel;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
